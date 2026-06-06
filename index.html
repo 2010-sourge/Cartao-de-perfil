@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+ 
+  <!-- Truque CSS: checkbox oculto controla o estado -->
+  <input type="checkbox" id="toggle" class="toggle-input" />
+ 
+  <div class="scene">
+ 
+    <div class="card">
+      <img
+        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=420&fit=crop&crop=face"
+        alt="James Bernal"
+        class="photo"
+      />
+      <div class="overlay">
+        <h2 class="name">James Bernal</h2>
+        <p class="role">Developer | YouTuber</p>
+        <div class="socials">
+          <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-btn" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="arrow"></div>
+ 
+    <!-- Label age como botão — alterna o checkbox -->
+    <label for="toggle" class="btn">
+      <span class="btn-share">SHARE</span>
+      <span class="btn-cancel">CANCEL</span>
+    </label>
+ 
+  </div>
+ 
+</body>
+</html>
+ 
